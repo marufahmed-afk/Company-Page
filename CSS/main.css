@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Hairline|Montserrat|Roboto:400,700|Seaweed+Script&display=swap");
+body, html {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: absolute;
+  padding: 1em;
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: calc(100% - 2em);
+  background: white;
+}
+
+header a {
+  text-decoration: none;
+  color: #004883;
+}
+
+header .brand-logo {
+  padding: 0;
+  margin-top: -0.5em;
+  height: 40px;
+  width: 55px;
+  margin-bottom: -2em;
+}
+
+header nav .hide-desktop {
+  display: block;
+}
+
+header nav .hide-mobile {
+  display: none;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header li a {
+  padding: 1em;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: 32%;
+      grid-template-rows: 32%;
+}
+
+.wrapper section {
+  padding: 3em;
+}
+
+.wrapper section h1, .wrapper section h2, .wrapper section h4, .wrapper section h5 {
+  margin: 0;
+}
+
+.wrapper section h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+}
+
+.wrapper section h2.title-text {
+  font-family: 'Bungee Hairline', cursive;
+  width: 100px;
+  line-height: 1.4em;
+  font-size: 3rem;
+  color: white;
+}
+
+.wrapper section.hero {
+  padding-top: 6em;
+  background: url("../Images/background.jpg");
+  background-size: cover;
+}
+
+.wrapper section.hero .connected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper section.hero .connected .info-objects {
+  padding-top: 2em;
+  padding-left: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.wrapper section.hero .connected img.pepsi-can-image {
+  position: absolute;
+  top: 143px;
+  left: -180px;
+  width: 650px;
+  height: 450px;
+}
+
+.wrapper section.hero .connected img.circle {
+  position: relative;
+}
+
+.wrapper section.hero .hash-tag {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  color: white;
+  font-weight: lighter;
+}
+
+.wrapper section.hero .red-color {
+  color: #FF0000;
+}
+
+.wrapper section.new-products {
+  background: #1B1B49;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.wrapper section.new-products .product-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wrapper section.new-products .product-images .cafe-img-1 {
+  width: 150px;
+}
+
+.wrapper section.new-products .product-images .cafe-img-2 {
+  width: 150px;
+}
+
+.wrapper section.new-products button.btn-np {
+  color: white;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 1em;
+  padding: 5px 15px;
+  font-weight: bolder;
+}
+
+.wrapper section.story {
+  font-family: 'Seaweed Script', cursive;
+  background: url("../Images/storybg.jpg");
+}
+
+.wrapper section.story .story-img {
+  display: none;
+}
+
+.wrapper section.footer {
+  background-color: #004883;
+  color: white;
+}
+
+.wrapper section.footer .connect {
+  padding: 1em;
+  float: left;
+}
+
+.wrapper section.footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1em;
+  padding-left: 0;
+  padding-right: 5em;
+}
+
+.wrapper section.footer .connect img {
+  padding: 0.5em;
+}
+
+.wrapper section.footer .explore {
+  padding: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+  section.hero .info-objects {
+    margin-left: 85px;
+  }
+  section.hero img.pepsi-can-image {
+    padding-left: 100px;
+    padding-top: 40px;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  section.new-products {
+    padding-top: 100px;
+  }
+  section.new-products h1 {
+    width: calc(100%);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  section.new-products .product-images {
+    padding-top: 3em;
+  }
+  section.new-products .product-images .cafe-img-1 {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  section.new-products .product-images .cafe-img-2 {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  section.new-products button.btn-np {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  header {
+    background: none;
+  }
+  header nav .hide-desktop {
+    display: none;
+  }
+  header nav .hide-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .brand-logo {
+    margin-left: 1em;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  .wrapper {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: 100% 100% 100% 40%;
+        grid-template-rows: 100% 100% 100% 40%;
+        grid-template-areas: "hero" "new" "story" "footer";
+    height: 100vh;
+  }
+  section.hero {
+    grid-area: "hero";
+  }
+  section.hero h2.title-text {
+    font-size: 80px;
+  }
+  section.hero .connected .info-objects {
+    margin-top: -70px;
+    margin-left: 460px;
+    padding-bottom: 60px;
+  }
+  section.hero .connected .info-objects .circle {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  section.hero .connected .info-objects .info {
+    padding-left: 40px;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  section.hero .connected img.pepsi-can-image {
+    position: absolute;
+    margin-left: 300px;
+    padding-left: 100px;
+    margin-top: 150px;
+    -webkit-transform: scale(1.8);
+            transform: scale(1.8);
+  }
+  section.new-products {
+    grid-area: "new";
+    padding-top: 150px;
+  }
+  section.new-products .inner {
+    padding-left: 55px;
+  }
+  section.new-products h1 {
+    width: 800px;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  section.new-products .product-images {
+    padding-top: 5em;
+  }
+  section.new-products .product-images .cafe-img-1 {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  section.new-products .product-images .cafe-img-2 {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  section.new-products button.btn-np {
+    margin-top: 70px;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  section.story {
+    grid-area: "story";
+  }
+  section.story h4.our-story {
+    font-size: 30px;
+  }
+  section.story .story-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section.story .story-block .story-text {
+    font-size: 30px;
+  }
+  section.story .story-block .story-img {
+    margin-top: -50px;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  section.footer {
+    grid-area: "footer";
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  header {
+    background: none;
+  }
+  section.hero h2.title-text {
+    padding-top: 100px;
+    font-size: 100px;
+  }
+  section.hero .connected .info-objects {
+    margin-top: -390px;
+    margin-left: 860px;
+    padding-bottom: 60px;
+  }
+  section.hero .connected .info-objects .circle {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  section.hero .connected .info-objects .info {
+    padding-left: 60px;
+    -webkit-transform: scale(1.9);
+            transform: scale(1.9);
+  }
+  section.hero .connected img.pepsi-can-image {
+    position: absolute;
+    margin-left: 650px;
+    padding-left: 100px;
+    margin-top: 100px;
+    -webkit-transform: scale(2.3);
+            transform: scale(2.3);
+  }
+  section.new-products {
+    grid-area: "new";
+    padding-top: 150px;
+  }
+  section.new-products .inner {
+    padding-left: 55px;
+  }
+  section.new-products h1 {
+    width: 800px;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  section.new-products .product-images {
+    padding-top: 8em;
+  }
+  section.new-products .product-images .cafe-img-1 {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  section.new-products .product-images .cafe-img-2 {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  section.new-products button.btn-np {
+    margin-top: 100px;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  section.story {
+    grid-area: "story";
+  }
+  section.story h4.our-story {
+    font-size: 40px;
+  }
+  section.story .story-block .story-text {
+    font-size: 40px;
+    width: 50%;
+  }
+  section.story .story-block .story-img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Hairline|Montserrat|Roboto:400,700|Seaweed+Script&display=swap");
+body, html {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: url(../Images/bg-2.jpg);
+  background-size: cover;
+}
+
+header {
+  position: absolute;
+  padding: 1em;
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: calc(100% - 2em);
+  background: white;
+}
+
+header a {
+  text-decoration: none;
+  color: #004883;
+}
+
+header .brand-logo {
+  padding: 0;
+  margin-top: -0.5em;
+  height: 40px;
+  width: 55px;
+  margin-bottom: -2em;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header li a {
+  padding: 1em;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexbox img {
+  width: 200px;
+}
+
+.flexbox label button {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: none;
+  padding: 0px 2px;
+  margin: 0px 5px;
+}
+
+.flexbox p {
+  padding-top: 50px;
+  width: 80%;
+  color: white;
+  text-align: justify;
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .flexbox img {
+    width: 220px;
+  }
+  .flexbox label button {
+    width: 13px;
+    height: 13px;
+  }
+  .flexbox p {
+    padding-top: 50px;
+    width: 75%;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .flexbox img {
+    width: 400px;
+  }
+  .flexbox label button {
+    width: 20px;
+    height: 20px;
+  }
+  .flexbox p {
+    padding-top: 60px;
+    width: 75%;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .flexbox {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .flexbox img {
+    width: 300px;
+  }
+  .flexbox label button {
+    width: 15px;
+    height: 15px;
+  }
+  .flexbox p {
+    margin-top: -5em;
+    width: 400px;
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (min-width: 1620px) {
+  .flexbox {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .flexbox img {
+    width: 400px;
+  }
+  .flexbox label button {
+    width: 15px;
+    height: 15px;
+  }
+  .flexbox p {
+    padding-top: 150px;
+    width: 400px;
+    font-size: 2em;
+  }
+}
+/*# sourceMappingURL=prod.css.map */

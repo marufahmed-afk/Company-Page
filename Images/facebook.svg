@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.551" height="28.551" viewBox="0 0 28.551 28.551">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="28.551" height="28.551" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="facebook" transform="translate(0)" clip-path="url(#clip-path)">
+    <g id="Group_20" data-name="Group 20">
+      <path id="Path_11" data-name="Path 11" d="M594.2,91.5a14.276,14.276,0,1,1,14.275-14.275A14.292,14.292,0,0,1,594.2,91.5Z" transform="translate(-579.92 -62.947)" fill="#fff"/>
+    </g>
+    <g id="Group_22" data-name="Group 22" transform="translate(10.285 5.719)">
+      <path id="Path_13" data-name="Path 13" d="M601.336,82.505v8.274a.216.216,0,0,0,.215.215h3.073a.215.215,0,0,0,.215-.215V82.37h2.228a.215.215,0,0,0,.214-.2l.214-2.534a.216.216,0,0,0-.215-.234h-2.442v-1.8a.763.763,0,0,1,.763-.763h1.717a.216.216,0,0,0,.216-.215V74.1a.216.216,0,0,0-.216-.215h-2.9a3.082,3.082,0,0,0-3.082,3.082v2.442H599.8a.215.215,0,0,0-.215.215v2.534a.215.215,0,0,0,.215.215h1.536Z" transform="translate(-599.584 -73.881)" fill="#004883" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

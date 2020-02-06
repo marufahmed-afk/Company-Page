@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.551" height="28.551" viewBox="0 0 28.551 28.551">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="28.551" height="28.551" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="youtube" transform="translate(0)" clip-path="url(#clip-path)">
+    <g id="Group_10" data-name="Group 10">
+      <path id="Path_3" data-name="Path 3" d="M748.2,90.5a14.276,14.276,0,1,1,14.275-14.275A14.292,14.292,0,0,1,748.2,90.5Z" transform="translate(-733.92 -61.947)" fill="#fff"/>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(5.933 8.325)">
+      <g id="Group_11" data-name="Group 11" transform="translate(0 0)">
+        <path id="Path_4" data-name="Path 4" d="M762.1,81.529a3.666,3.666,0,0,0-3.666-3.666h-9.509a3.666,3.666,0,0,0-3.666,3.666v4.456a3.666,3.666,0,0,0,3.666,3.666h9.509a3.666,3.666,0,0,0,3.666-3.666Zm-6,2.453-3.792,2.08c-.165.089-.313-.03-.313-.218V81.575c0-.19.153-.309.318-.215l3.818,2.19A.249.249,0,0,1,756.1,83.982Z" transform="translate(-745.262 -77.863)" fill="#004883" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
